@@ -1,217 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu portofólio</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/f870d86bb2.js"
-      crossorigin="anonymous"
-    ></script>
-    <style>
-      .foto-perfil {
-        height: 100%;
-        width: auto;
-        max-width: 100%;
-        border-radius: 50%;
-      }
-      .corPrimaria {
-        background-color:rgb(60, 118, 136);
-      }.corSecundaria {
-        background-color: orange
-      }
-      .corBranca {
-        background-color: white;
-      }
-      .whiteText {
-        color: white !important;
-      }
-      p {
-        font-family:Arial, Helvetica, sans-serif;
-        color: black !important;
-      }
-      .icons {
-        padding-left:5px;
-      }
-      .titlesWhite {
-        text-decoration: underline;
-        text-underline-position: below;
-        padding-bottom: 20px;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: white;
-      }
-      .titlesGreen {
-        text-decoration: underline;
-        text-underline-position: below;
-        padding-bottom: 20px;
-        text-transform: uppercase;
-        font-weight: 700;
-        color:green;
-      }
-      .jumbotron {
-        margin-bottom: 0px;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-  </head>
-  <body>
-    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand whiteText" href="#">Ricardo Freitas</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto"></ul>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link whiteText" href="#projetos">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link whiteText" href="#sobre-mim">Sobre mim</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link whiteText" href="#capacidades">Capacidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link whiteText" href="#contacto">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <section class="jumbotron text-center corPrimaria">
-      <div class="container">
-        <img
-          class="foto-perfil"
-          src="https://cdn.discordapp.com/avatars/513113161126248469/846ba3075a3407d43693d95d05919057.webp?size=128"
-          alt=""
-        />
-        <h1 class="jumbotron-heading whiteText">Ricardo Freitas</h1>
-        <p class="lead whiteText">Programador - Estudante 16 Anos</p>
-        <p>
-          <a href="#contacto" class="btn btn-dark my-2">Contacto</a>
-        </p>
-        <a href="https://github.com/rmotafreitas"
-          ><i class="whiteText fab fa-github"></i
-        ></a>
-      </div>
-    </section>
-    <div class="album py-5 bg-light" id="projetos">
-      <div class="container">
-        <h2 class="jumbotron-heading text-center titlesGreen">Projetos</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="height: 225px; width: 100%; display: block"
-                src="../src/images/SistemaBasket.JPG"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Projeto de final de 10ºAno - Sistema simples de organização de
-                  Basket, com o uso de:
-                </p>
-                <ul>
-                  <li>Visual Basic</li>
-                  <li>Windows Forms</li>
-                </ul>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href="https://raw.githubusercontent.com/rmotafreitas/Projeto-final---Sistema-Basket/master/Preview.gif"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/rmotafreitas/Projeto-final---Sistema-Basket"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Ver o Código
-                      </button></a
-                    >
-                  </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu portofólio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f870d86bb2.js" crossorigin="anonymous"></script>
+  <style>
+    .foto-perfil {
+      height: 100%;
+      width: auto;
+      max-width: 100%;
+      border-radius: 50%;
+    }
+
+    .corPrimaria {
+      background-color: rgb(60, 118, 136);
+    }
+
+    .corSecundaria {
+      background-color: orange
+    }
+
+    .corBranca {
+      background-color: white;
+    }
+
+    .whiteText {
+      color: white !important;
+    }
+
+    .blackText {
+      color: black !important;
+    }
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: black !important;
+    }
+
+    .icons {
+      padding-left: 5px;
+    }
+
+    .titlesWhite {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: white;
+    }
+
+    .titlesGreen {
+      text-decoration: underline;
+      text-underline-position: below;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: green;
+    }
+
+    .jumbotron {
+      margin-bottom: 0px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand whiteText" href="#">Ricardo Freitas</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link whiteText" href="#projetos">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link whiteText" href="#sobre-mim">Sobre mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link whiteText" href="#capacidades">Capacidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link whiteText" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="jumbotron text-center corPrimaria">
+    <div class="container">
+      <img class="foto-perfil"
+        src="https://cdn.discordapp.com/avatars/513113161126248469/846ba3075a3407d43693d95d05919057.webp?size=128"
+        alt="" />
+      <h1 class="jumbotron-heading whiteText">Ricardo Freitas</h1>
+      <p class="lead whiteText">Programador - Estudante 16 Anos</p>
+      <p>
+        <a href="#contacto" class="btn btn-dark my-2">Contacto</a>
+      </p>
+      <a href="https://github.com/rmotafreitas"><i class="whiteText fab fa-github"></i></a>
+    </div>
+  </section>
+  <div class="album py-5 bg-light" id="projetos">
+    <div class="container">
+      <h2 class="jumbotron-heading text-center titlesGreen">Projetos</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block"
+              src="../src/images/SistemaBasket.JPG" data-holder-rendered="true" />
+            <div class="card-body">
+              <p class="card-text">
+                Projeto de final de 10ºAno - Sistema simples de organização de
+                Basket, com o uso de:
+              </p>
+              <ul>
+                <li>Visual Basic</li>
+                <li>Windows Forms</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="https://raw.githubusercontent.com/rmotafreitas/Projeto-final---Sistema-Basket/master/Preview.gif"><button
+                      type="button" class="btn btn-sm btn-outline-success">
+                      Ver Projeto
+                    </button></a>
+                  <a href="https://github.com/rmotafreitas/Projeto-final---Sistema-Basket"><button type="button"
+                      class="btn btn-sm btn-outline-primary">
+                      Ver o Código
+                    </button></a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img
-                class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Thumbnail [100%x225]"
-                style="height: 225px; width: 100%; display: block"
-                src="../src/images/SistemaBasket.JPG"
-                data-holder-rendered="true"
-              />
-              <div class="card-body">
-                <p class="card-text">
-                  Projeto de final de 10ºAno - Sistema simples de organização de
-                  Basket, com o uso de Visual Basic, Windows Forms.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a
-                      href="https://raw.githubusercontent.com/rmotafreitas/Projeto-final---Sistema-Basket/master/Preview.gif"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-success"
-                      >
-                        Ver Projeto
-                      </button></a
-                    >
-                    <a
-                      href="https://github.com/rmotafreitas/Projeto-final---Sistema-Basket"
-                      ><button
-                        type="button"
-                        class="btn btn-sm btn-outline-primary"
-                      >
-                        Ver o Código
-                      </button></a
-                    >
-                  </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block"
+              src="../src/images/SistemaBasket.JPG" data-holder-rendered="true" />
+            <div class="card-body">
+              <p class="card-text">
+                Projeto de final de 10ºAno - Sistema simples de organização de
+                Basket, com o uso de Visual Basic, Windows Forms.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="https://raw.githubusercontent.com/rmotafreitas/Projeto-final---Sistema-Basket/master/Preview.gif"><button
+                      type="button" class="btn btn-sm btn-outline-success">
+                      Ver Projeto
+                    </button></a>
+                  <a href="https://github.com/rmotafreitas/Projeto-final---Sistema-Basket"><button type="button"
+                      class="btn btn-sm btn-outline-primary">
+                      Ver o Código
+                    </button></a>
                 </div>
               </div>
             </div>
@@ -219,50 +185,70 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Sobre mim -->
+  <!-- Sobre mim -->
 
-    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
-      <div class="container">
-        <h2 class="jumbotron-heading titlesWhite">Sobre mim</h2>
-        <p class="lead whiteText">
-          Olá chamo-me Ricardo Freitas, comecei a programar a mais de 1 ano.
-          Gosto muito de tecnologia especialmete programar e ajudar os meus
-          colegas sempre que possível.
-        </p>
+  <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+    <div class="container">
+      <h2 class="jumbotron-heading titlesWhite">Sobre mim</h2>
+      <p class="lead whiteText">
+        Olá chamo-me Ricardo Freitas, comecei a programar a mais de 1 ano.
+        Gosto muito de tecnologia especialmete programar e ajudar os meus
+        colegas sempre que possível.
+      </p>
+    </div>
+  </section>
+
+  <!-- Capacidades -->
+  <section class="jumbotron text corBranca" id="capacidades">
+    <div class="container">
+      <h2 class="jumbotron-heading text-center titlesGreen">Capacidades</h2>
+      <p class="text-left">
+      <ul>
+        <li>Visual Basic</li>
+        <li>C#</li>
+        <li>Windows Forms</li>
+        <li>Git</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+        <li>Google FireBase</li>
+      </ul>
+      </p>
+    </div>
+  </section>
+
+  <!-- Ferramentas -->
+  <section class="jumbotron text corPrimaria" id="capacidades">
+    <div class="container">
+      <h2 class="jumbotron-heading text-center titlesWhite">Ferramentas</h2>
+      <p class="text-left">
+      <ul class="whiteText">
+        <li>Word</li>
+        <li>Excel</li>
+        <li>Power Point</li>
+        <li>Photoshop</li>
+      </ul>
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Contacto -->
+  <section>
+    <div>
+      <div class="container-fluid" id="contacto">
+        <h3 style="padding-top:60px;" class="text-center titlesGreen">Disponível para trabalhos</h3>
+        <a href="mailto:2019.itm.ricardofreitas@gmail.com">
+          <h4 style="padding-bottom: 60px;margin-bottom: 0px;" class="text-center blackText">👉 2019.itm.ricardofreitas@gmail.com</h4>
+        </a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Capacidades -->
-    <section class="jumbotron text corBranca" id="capacidades">
-      <div class="container">
-        <h2 class="jumbotron-heading text-center titlesGreen">Capacidades</h2>
-        <p class="text-left">
-          <ul>
-            <li>Visual Basic</li>
-            <li>C#</li>
-            <li>Windows Forms</li>
-            <li>Git</li>
-            <li>JavaScript</li>
-            <li>Node.js</li>
-            <li>MongoDB</li>
-            <li>Google FireBase</li>
-          </ul>
-        </p>
-      </div>
-    </section>
+  <!-- Footer -->
 
-    <!-- Contacto -->
-    <section>
-      <div>
-        <div class="container-fluid corPrimaria" id="contacto">
-          <h3 style="padding-top:60px;"class="text-center titlesWhite">Disponível para trabalhos</h3>
-          <a href="mailto:2019.itm.ricardofreitas@gmail.com"><h4 style="padding-bottom: 60px;margin-bottom: 0px;"class="text-center whiteText">👉 2019.itm.ricardofreitas@gmail.com</h4></a>
-        </div>
-      </div>
-    </section>
+</body>
 
-    <!-- Footer -->
-
-  </body>
 </html>
